@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Crimson+Text:ital@0;1&family=Merriweather:wght@300&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.progress{
+    height: .3vh;
+    background: red;
+    animation: load 1.5s ease-in-out 0s 1 forwards ;
+}
+@keyframes load{
+    0%{
+        width:0vw;
+
+    }
+    50%{
+        width:50vw;
+    }
+
+    100%{
+        width:100vw;
+    }
+}
+.navbar{
+    height:8.2vh;
+    background: rgb(19,25,23);
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    border: 0.1vw transparent;
+}
+.logo:hover{
+    border: 0.1vw solid white;
+}
+.logo img{
+    height:8.2vh;
+    align-items: center;
+    margin-right: 0vw;
+    
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1vw transparent;
+padding:0 1vw 0 .8vw ;
+
+}
+.box1:hover{
+    border:0.1vw solid white;
+}
+ .location i{
+    margin:.3vw .3vw 0 0;
+    color:white;
+    z-index: 1;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    color:aliceblue
+}
+.deliver{
+     font-size: 0.7rem;
+     color: #cccc;
+    
+}
+.india{
+    font-size: 1rem;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.4vw;
+}
+#select{
+    height: 7vh;
+    width:3.5vw;
+    border:border-box;
+    border-top-left-radius:.5vh ;
+    border-bottom-left-radius:.5vh ;
+}
+#select:hover{
+    background: rgb(222, 218, 209);
+}
+.searchbar{
+   
+    display:flex;
+    align-items: center;
+    width:50vw;
+    
+}
+input{
+    border-image-slice: 0%;
+    border-image-width: 0%;
+    border:none;
+    height:7vh;
+    width:50vw;
+}
+.searchicon{
+    display: flex;
+    height:7vh;
+    width:3vw;
+    border-top-right-radius: .5vh;
+    border-bottom-right-radius: .5vh;
+    align-items: center;
+    justify-content: center;
+    background: #febd7d;
+}
+.searchicon:hover{
+    background: rgb(213, 155, 96);
+}
+.searchbar i{
+    height: 20vh;
+    width: 4vw;
+    padding-top: 1vh;
+    color:rgb(82, 70, 70)
+    
+}
+.box3{
+    
+    padding-top: 1.5vh;
+    margin-left: 3vw;
+    text-align: center;
+   color:whitesmoke;
+   border:.3vh transparent;
+}
+.box3:hover{
+    border:.3vh solid white;
+}
+.hello{
+    font-size: 1 rem;
+}
+.account{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.box4{
+    padding-top: 1.5vh;
+    margin-left: 3vw;
+    text-align: center;
+    color:whitesmoke;
+   border:.3vh transparent;
+}
+.box4:hover{
+    border:.3vh solid white;
+}
+.order{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cart{
+    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:.3vh transparent;
+
+}
+.cart:hover{
+    border:.3vh solid white
+}
+.cart i{
+    
+    color: aliceblue;
+}
+.cart p{
+   font-size: 1rem;
+    color: aliceblue;
+}
+.panel{
+    display:flex;
+    align-items: center;
+    
+    height:8vh;
+    background: #1b4545;
+}
+.menu{
+    margin-left: 1.3vw;
+    padding-top: 2.5vh;
+    height:5vh;
+    color: whitesmoke;
+    font-weight: 700;
+    border: .25vh transparent;
+
+}
+.menu:hover{
+    border: .25vh solid white;
+}
+.menu i{
+    margin-right: .5vw;
+}
+.box5{
+    display: flex;
+    align-items: center;
+    height:5vh;
+    color: aliceblue;
+    margin-left: 1vw;
+}
+.deals{
+    margin-right: 1vw;
+    padding-top: 2vh;
+    height:5vh;
+    border: .25vh transparent;
+   
+
+}
+.deals:hover{
+    border:.25vh solid white;
+}
+.customer{
+    margin-right: 1vw;
+    padding-top: 2vh;
+    height:5vh;
+    border: .25vh transparent;
+   
+}
+.customer:hover{
+    border:.25vh solid white;
+}
+.registry{
+    margin-right: 1vw;
+    padding-top: 2vh;
+    height:5vh;
+    border: .25vh transparent;
+    
+}
+.registry:hover{
+    border:.25vh solid white;
+}
+.gift{
+    margin-right: 1vw;
+    padding-top: 2vh;
+    height:5vh;
+    border: .25vh transparent;
+    
+}
+.gift:hover{
+    border:.25vh solid white;
+}
+.sell{
+    margin-right: 1vw;
+    padding-top: 2vh;
+    height:5vh;
+    border:0.25vh transparent;
+    
+}
+.sell:hover{
+    border: 0.25vh solid white;
+}
+.cover{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cover img{
+    
+    width:100vw;
+    height: auto;
+}
+.items{
+    display:flex;
+}
